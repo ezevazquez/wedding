@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0); /* Fondo transparente */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Alinear el botón verticalmente */
+  padding: 20px;
+  z-index: 2; /* Establece un valor de z-index más alto para la navbar */
+}
+
+.button {
+  background: transparent; /* Fondo transparente */
+  color: white; /* Color de fuente (gris oscuro) */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Cambia el cursor al pasar el mouse sobre el botón */
+  transition: background-color 0.3s ease; /* Agrega una transición al color de fondo */
+  margin-right: 2rem;
+  padding: 10px;
+  font-size: 1.2rem; /* Tamaño de fuente más grande */
+  font-weight: bold; /* Texto en negrita */
+  font-family: 'Montserrat', sans-serif; /* Usar la fuente "Montserrat" y luego cualquier fuente sans-serif genérica */
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Cambio de color al pasar el mouse */
+}
