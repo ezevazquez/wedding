@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  filter: blur(0); /* El desenfoque inicial (sin pasar el mouse) */
+  filter: blur(1); /* El desenfoque inicial (sin pasar el mouse) */
   transition: filter 0.5s;
   overflow: hidden; /* Evita que el contenido se desborde en el hover */
   background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad (ajusta según lo desees) */
