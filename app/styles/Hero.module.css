@@ -5,6 +5,7 @@
   padding: 0;
   margin-inline: 60px;
   overflow: hidden;
+      border-radius: 10px;
 }
 
 .heroContent {
@@ -17,16 +18,16 @@
   filter: blur(0); /* El desenfoque inicial (sin pasar el mouse) */
   transition: filter 0.5s;
   overflow: hidden; /* Evita que el contenido se desborde en el hover */
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad (ajusta según lo desees) */
 }
 
 .heroContent:hover img { /* Aplicar el desenfoque solo a la imagen dentro de .heroContent */
-  filter: blur(5px); /* El desenfoque al pasar el mouse */
+  filter: blur(2px); /* El desenfoque al pasar el mouse */
 }
-
 
 .heroTitle {
   font-size: 2rem; /* Ajusta el tamaño del título */
-  color: #fff; /* Color del texto del título */
+  color: #fafafa; /* Color del texto del título */
 }
 
 /* Estilos para la imagen */
