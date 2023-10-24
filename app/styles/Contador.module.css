@@ -16,7 +16,7 @@
   background-size: 200% 200%;
   animation: gradientAnimation 10s ease infinite;
 
-  @keyframes gradientAnimation {
+  /* @keyframes gradientAnimation {
     0% {
       background-position: 0% 50%;
     }
@@ -26,7 +26,7 @@
     100% {
       background-position: 0% 50%;
     }
-  }
+  } */
 }
 
 /* Estilo para el número (días, horas, minutos, segundos) */
