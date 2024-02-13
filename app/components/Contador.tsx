@@ -67,10 +67,6 @@ const Contador: React.FC<Props> = ({ targetDate }) => {
         <div className={styles.value}>{String(time.minutes)}</div>
         <div className={styles.time}>minutos</div>
       </div>
-      <div className={styles.valueBox}>
-        <div className={styles.value}>{String(time.seconds)}</div>
-        <div className={styles.time}>segundos</div>
-      </div>
     </div>
   );
 };

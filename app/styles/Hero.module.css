@@ -21,9 +21,6 @@
   background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad (ajusta según lo desees) */
 }
 
-.heroContent:hover img { /* Aplicar el desenfoque solo a la imagen dentro de .heroContent */
-  filter: blur(2px); /* El desenfoque al pasar el mouse */
-}
 
 .heroTitle {
   font-size: 2rem; /* Ajusta el tamaño del título */

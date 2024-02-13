@@ -1,56 +1,30 @@
-/* styles/Contador.module.css */
 .contador {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #fff;
-  background: #14191b;
-  padding: 20px 20px;
-  margin: 20px 200px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  background: linear-gradient(45deg, #6f7983b2, #000000c8);
-  background-size: 200% 200%;
-  animation: gradientAnimation 10s ease infinite;
-
-  /* @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  } */
+  padding: 10px;
+  justify-content: space-around;
 }
 
-/* Estilo para el número (días, horas, minutos, segundos) */
 .valueBox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px; /* Agrega un margen inferior de 10px entre cada elemento en dispositivos móviles */
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .value {
-  font-size: 1.2rem;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .time {
-  font-size: 1rem;
-  margin-top: 5px;
+  font-size: 14px;
 }
 
 /* Media query para dispositivos móviles (ancho de pantalla menor a 768px) */
 @media (max-width: 768px) {
   .contador {
     margin: 10px; /* Margen de 10px en dispositivos móviles */
-    flex-direction: column; /* Apila los elementos uno encima del otro en dispositivos móviles */
+    flex-direction: row; /* Apila los elementos uno encima del otro en dispositivos móviles */
     text-align: center;
   }
 }

@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           layout="fill"
           objectFit="cover"
         />
-        <h1 className={styles.heroTitle}>EL AMORRRRRRR</h1>
+        <h1 className={styles.heroTitle}>Holis</h1>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #fafafa, #6bd0ffd1); /* Cambia los colores según tu paleta */
+    background: #fafafa; /* Cambia los colores según tu paleta */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
