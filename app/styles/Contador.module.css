@@ -1,7 +1,8 @@
 .contador {
   display: flex;
-  padding: 10px;
+  padding-top: 200px;
   justify-content: space-around;
+  align-items: center;
 }
 
 .valueBox {
