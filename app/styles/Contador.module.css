@@ -31,7 +31,7 @@
 /* Media query para dispositivos móviles (ancho de pantalla menor a 768px) */
 @media (max-width: 768px) {
   .contador {
-    margin: 10% 10%; /* Margen de 10px en dispositivos móviles */
+    margin: 5% 10%; /* Margen de 10px en dispositivos móviles */
     flex-direction: row; /* Apila los elementos uno encima del otro en dispositivos móviles */
     text-align: center;
   }

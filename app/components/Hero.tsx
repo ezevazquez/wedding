@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <h1 className={styles.heroSubtitle}>DOMINGO 18 DE AGOSTO 2024</h1>
         <div className={styles.heroImageContainer}>
           <Image
-            src="/images/hero.jpeg"
+            src="/images/Frame1.png"
             alt="Eze & Agus"
             width={800} // Ancho de la imagen
             height={600} // Alto de la imagen
