@@ -31,10 +31,10 @@
 
   .heroImageContainer {
     align-items: center; /* Centra verticalmente */
-    display: flex;
+    display: inline-block;
     justify-content: center; /* Centra horizontalmente */
     position: relative;
-    width: 90%; 
+    width: 50%; 
     margin-top: 20px;
   }  
 
