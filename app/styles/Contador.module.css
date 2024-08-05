@@ -1,38 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@200;400;700&display=swap');
 
 .contador {
   display: flex;
-  padding-top: 20px;
-  margin: 0 30%;
+  padding: 20px 0;
+  margin: 0 auto;
   justify-content: space-around;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+  font-family: 'Josefin Sans', sans-serif; /* Cambia la fuente a Josefin Sans */
+  text-align: center;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en dispositivos más pequeños */
 }
 
 .valueBox {
   text-align: center;
   background-color: transparent;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 8px;
+  margin: 0 10px;
 }
 
 .value {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 3rem; /* Aumenta el tamaño de la fuente para que los números sean más prominentes */
+  font-weight: 700; /* Negrita */
+  color: #333; /* Color de texto oscuro para mejor contraste */
 }
 
 .time {
-  font-size: 14px;
+  font-size: 1.25rem; /* Aumenta el tamaño de la fuente para las etiquetas de tiempo */
+  color: #666; /* Color de texto gris para las etiquetas de tiempo */
 }
 
-/* Media query para dispositivos móviles (ancho de pantalla menor a 768px) */
+/* Media query para dispositivos móviles */
 @media (max-width: 768px) {
   .contador {
-    margin: 5% 10%; /* Margen de 10px en dispositivos móviles */
-    flex-direction: row; /* Apila los elementos uno encima del otro en dispositivos móviles */
-    text-align: center;
+    flex-direction: row; /* Mantiene los elementos en fila en dispositivos móviles */
+    margin: 10px; /* Ajusta el margen en dispositivos móviles */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+  }
+
+  .valueBox {
+    margin: 0 5px; /* Ajusta el margen entre cajas en dispositivos móviles */
   }
 }

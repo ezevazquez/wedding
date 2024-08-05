@@ -1,13 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
-
-// next.config.js
-const withImages = require('next-images');
-module.exports = withImages({
-  // Otras configuraciones aquí
-  webpack(config, options) {
-    return config;
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ['your-domain.com'], // reemplaza 'your-domain.com' por el dominio de tus imágenes si es necesario
   },
-});
+};
+
+module.exports = nextConfig;

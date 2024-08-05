@@ -1,3 +1,4 @@
+// components/Contador.tsx
 'use client'
 
 import { useState, useEffect } from 'react';
@@ -56,16 +57,20 @@ const Contador: React.FC<Props> = ({ targetDate }) => {
   return (
     <div className={styles.contador}>
       <div className={styles.valueBox}>
-        <div className={styles.value}>{String(time.days)}</div>
+        <div className={styles.value}>{String(time.days).padStart(2, '0')}</div>
         <div className={styles.time}>días</div>
       </div>
       <div className={styles.valueBox}>
-        <div className={styles.value}>{String(time.hours)}</div>
+        <div className={styles.value}>{String(time.hours).padStart(2, '0')}</div>
         <div className={styles.time}>horas</div>
       </div>
       <div className={styles.valueBox}>
-        <div className={styles.value}>{String(time.minutes)}</div>
+        <div className={styles.value}>{String(time.minutes).padStart(2, '0')}</div>
         <div className={styles.time}>minutos</div>
+      </div>
+      <div className={styles.valueBox}>
+        <div className={styles.value}>{String(time.seconds).padStart(2, '0')}</div>
+        <div className={styles.time}>segundos</div>
       </div>
     </div>
   );

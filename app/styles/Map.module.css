@@ -1,0 +1,43 @@
+/* styles/Map.module.css */
+.mapSection {
+  text-align: center; /* Centra el texto y el mapa */
+  margin: 40px 0; /* Margen superior e inferior */
+  padding-bottom: 20vh;
+}
+
+.mapTitle {
+  font-size: 2rem; /* Tamaño de fuente para el título */
+  font-family: 'Josefin Sans', sans-serif; /* Fuente personalizada */
+  font-weight: 700; /* Negrita */
+  margin-bottom: 20px; /* Espacio entre el título y el mapa */
+}
+
+.mapContainer {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 100%;
+  border: 2px solid #ccc; /* Agrega un borde alrededor del mapa */
+  border-radius: 10px; /* Redondea las esquinas del borde */
+  overflow: hidden; /* Asegura que no se desborde el contenido */
+}
+
+.mapIframe {
+  width: 100%; /* Ajusta el ancho del iframe al 100% del contenedor */
+  height: 450px; /* Ajusta la altura del iframe */
+  border: 0; /* Elimina el borde del iframe */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 414px) {
+  .mapContainer {
+    margin: 10px;
+    border-width: 1px; /* Reduce el grosor del borde en pantallas más pequeñas */
+  }
+
+  .mapIframe {
+    height: 300px; /* Ajusta la altura del iframe en pantallas más pequeñas */
+  }
+  .mapSection{
+    padding-inline: 0vh;
+  }
+}
